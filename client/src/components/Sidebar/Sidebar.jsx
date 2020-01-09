@@ -128,7 +128,7 @@ class Sidebar extends React.Component {
           {/* Brand */}
           {logo ? (
             <NavbarBrand className="pt-0" {...navbarBrandProps}>
-                <h1>PM2.5</h1>
+                <h1>PM2.5-T27</h1>
             </NavbarBrand>
           ) : null}
           {/* Collapse */}
@@ -138,7 +138,7 @@ class Sidebar extends React.Component {
               <Row>
                 {logo ? (
                   <Col className="collapse-brand" xs="6">
-                    <h1>Lora IoT</h1>
+                    <h1>PM2.5-T27</h1>
                   </Col>
                 ) : null}
                 <Col className="collapse-close" xs="6">
