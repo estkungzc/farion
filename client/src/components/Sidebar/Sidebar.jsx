@@ -128,7 +128,7 @@ class Sidebar extends React.Component {
           {/* Brand */}
           {logo ? (
             <NavbarBrand className="pt-0" {...navbarBrandProps}>
-                <h1>Lora IoT</h1>
+                <h1>PM2.5</h1>
             </NavbarBrand>
           ) : null}
           {/* Collapse */}
