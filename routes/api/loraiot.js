@@ -11,6 +11,8 @@ router.post("/iot-receiver", LoraiotController.store);
 // @desc     Retrieve all data
 router.get("/iot-received", LoraiotController.get);
 
+// @route    GET api/sensor.
+// @desc     Retrieve all data
 router.get("/sensor", LoraiotController.getSensor);
 
 module.exports = router;

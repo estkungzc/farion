@@ -1,3 +1,3 @@
 {
-    "mongoURI": "mongodb://localhost:32768/loraiot"   
+    "mongoURI": "mongodb+srv://arainaha:22527606@loraiot-nuqhw.mongodb.net/loraiot?retryWrites=true&w=majority"   
 }
